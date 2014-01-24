@@ -72,7 +72,7 @@ describe('SongQueue', function() {
       expect(removeSpy).toHaveBeenCalled();
     });
   });
-  
+
   describe('playFirst', function() {
     it('plays the first song in the queue', function() {
       spyOn(SongModel.prototype, 'play').andCallThrough();
